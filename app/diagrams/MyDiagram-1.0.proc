@@ -147,35 +147,13 @@
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_75arUTurEe-Rcfqu7Yz6dQ" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_75arUDurEe-Rcfqu7Yz6dQ" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_75arUjurEe-Rcfqu7Yz6dQ" name="" content="" returnTypeFixed="true"/>
-          <operations xmi:type="expression:Operation" xmi:id="_zE60MzvJEe-Rcfqu7Yz6dQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_zE60NDvJEe-Rcfqu7Yz6dQ" name="thesis" content="thesis" type="TYPE_VARIABLE" returnType="com.company.model.Thesis">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_zE60NTvJEe-Rcfqu7Yz6dQ" name="thesis" dataType="_I2a1FDsKEe-Rcfqu7Yz6dQ" className="com.company.model.Thesis"/>
-            </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_zE60NjvJEe-Rcfqu7Yz6dQ" name="thesisInput.title" content="thesisInput?.title" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_zE60NzvJEe-Rcfqu7Yz6dQ" name="thesisInput" type="COMPLEX" createMode="false"/>
-            </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_zE60ODvJEe-Rcfqu7Yz6dQ" type="JAVA_METHOD" expression="setTitle">
-              <inputTypes>java.lang.String</inputTypes>
-            </operator>
-          </operations>
-          <operations xmi:type="expression:Operation" xmi:id="_zE60OTvJEe-Rcfqu7Yz6dQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_zE60OjvJEe-Rcfqu7Yz6dQ" name="thesis" content="thesis" type="TYPE_VARIABLE" returnType="com.company.model.Thesis">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_zE60OzvJEe-Rcfqu7Yz6dQ" name="thesis" dataType="_I2a1FDsKEe-Rcfqu7Yz6dQ" className="com.company.model.Thesis"/>
-            </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_zE60PDvJEe-Rcfqu7Yz6dQ" name="thesisInput.plan" content="thesisInput?.plan" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_zE60PTvJEe-Rcfqu7Yz6dQ" name="thesisInput" type="COMPLEX" createMode="false"/>
-            </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_zE60PjvJEe-Rcfqu7Yz6dQ" type="JAVA_METHOD" expression="setPlan">
-              <inputTypes>java.lang.String</inputTypes>
-            </operator>
-          </operations>
           <loopCondition xmi:type="expression:Expression" xmi:id="_75arUzurEe-Rcfqu7Yz6dQ" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <loopMaximum xmi:type="expression:Expression" xmi:id="_75arVDurEe-Rcfqu7Yz6dQ" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <cardinalityExpression xmi:type="expression:Expression" xmi:id="_75arVTurEe-Rcfqu7Yz6dQ" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_75arVzurEe-Rcfqu7Yz6dQ" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_75arVjurEe-Rcfqu7Yz6dQ" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_9cvfSjurEe-Rcfqu7Yz6dQ">
-            <targetForm xmi:type="expression:Expression" xmi:id="_JXlrODutEe-Rcfqu7Yz6dQ" name="ReviewTitleAndPlan" content="107ae68e-71e1-4749-aa08-3d7268ea0527" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_JXlrODutEe-Rcfqu7Yz6dQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_9cvfSTurEe-Rcfqu7Yz6dQ">
             <inputs xmi:type="process:ContractInput" xmi:id="_zE60MDvJEe-Rcfqu7Yz6dQ" name="thesisInput" type="COMPLEX" dataReference="thesis" createMode="false">
