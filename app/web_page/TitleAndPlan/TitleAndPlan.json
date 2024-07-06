@@ -1,10 +1,10 @@
 {
-  "id" : "TitleAndPlanInput",
-  "name" : "TitleAndPlanInput",
+  "id" : "TitleAndPlan",
+  "name" : "TitleAndPlan",
   "type" : "form",
-  "uuid" : "2abc3485-af96-4917-9967-a67362947a52",
+  "uuid" : "dba9bc5e-5d35-4760-9041-e804b6790d31",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1720278276772,
+  "lastUpdate" : 1720292302973,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -14,7 +14,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "9bf8e9c3-093b-4bac-b2c6-cc3142c21bbc",
+        "reference" : "841a3774-6036-4328-b926-6a3797336132",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -51,13 +51,9 @@
                 "dimension" : {
                   "type" : "constant",
                   "value" : 12
-                },
-                "allowHTML" : {
-                  "type" : "constant",
-                  "value" : false
                 }
               },
-              "reference" : "f4e20760-c0e2-429b-8ca8-b71f9fe903e8",
+              "reference" : "3edd2e6e-bebb-4d7e-9deb-9f4524327e06",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -103,21 +99,9 @@
                 "dimension" : {
                   "type" : "constant",
                   "value" : 12
-                },
-                "allowHTML" : {
-                  "type" : "constant",
-                  "value" : false
-                },
-                "labelPosition" : {
-                  "type" : "constant",
-                  "value" : "top"
-                },
-                "labelWidth" : {
-                  "type" : "constant",
-                  "value" : 4
                 }
               },
-              "reference" : "3a81ae6b-065b-4ae2-961a-0b6f46fe05c1",
+              "reference" : "c918d2c1-39d5-4ff0-95e2-2d24bd4e6a9d",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -128,217 +112,12 @@
     ],
     [
       {
-        "type" : "component",
-        "dimension" : {
-          "xs" : 12,
-          "sm" : 12,
-          "md" : 12,
-          "lg" : 12
-        },
-        "propertyValues" : {
-          "cssClasses" : {
-            "type" : "constant",
-            "value" : ""
-          },
-          "hidden" : {
-            "type" : "constant",
-            "value" : false
-          },
-          "required" : {
-            "type" : "constant",
-            "value" : false
-          },
-          "allowHTML" : {
-            "type" : "constant",
-            "value" : false
-          },
-          "minLength" : {
-            "type" : "constant",
-            "value" : ""
-          },
-          "maxLength" : {
-            "type" : "constant",
-            "value" : ""
-          },
-          "readOnly" : {
-            "type" : "constant",
-            "value" : false
-          },
-          "labelHidden" : {
-            "type" : "constant",
-            "value" : false
-          },
-          "label" : {
-            "type" : "interpolation",
-            "value" : "Title"
-          },
-          "labelPosition" : {
-            "type" : "constant",
-            "value" : "top"
-          },
-          "labelWidth" : {
-            "type" : "constant",
-            "value" : 4
-          },
-          "placeholder" : {
-            "type" : "interpolation"
-          },
-          "value" : {
-            "type" : "variable"
-          },
-          "debounce" : {
-            "type" : "constant",
-            "value" : 0
-          },
-          "type" : {
-            "type" : "constant",
-            "value" : "text"
-          },
-          "min" : {
-            "type" : "constant"
-          },
-          "max" : {
-            "type" : "constant"
-          },
-          "step" : {
-            "type" : "constant",
-            "value" : 1
-          }
-        },
-        "reference" : "afd589ad-e264-4e3e-bb09-82775bffba89",
-        "hasValidationError" : false,
-        "id" : "pbInput"
-      }
-    ],
-    [
-      {
-        "type" : "component",
-        "dimension" : {
-          "xs" : 12,
-          "sm" : 12,
-          "md" : 12,
-          "lg" : 12
-        },
-        "propertyValues" : {
-          "cssClasses" : {
-            "type" : "constant",
-            "value" : ""
-          },
-          "hidden" : {
-            "type" : "constant",
-            "value" : false
-          },
-          "readOnly" : {
-            "type" : "constant",
-            "value" : false
-          },
-          "required" : {
-            "type" : "constant",
-            "value" : false
-          },
-          "allowHTML" : {
-            "type" : "constant",
-            "value" : false
-          },
-          "minLength" : {
-            "type" : "constant",
-            "value" : ""
-          },
-          "maxLength" : {
-            "type" : "constant",
-            "value" : ""
-          },
-          "labelHidden" : {
-            "type" : "constant",
-            "value" : false
-          },
-          "label" : {
-            "type" : "interpolation",
-            "value" : "Plan"
-          },
-          "labelPosition" : {
-            "type" : "constant",
-            "value" : "top"
-          },
-          "labelWidth" : {
-            "type" : "constant",
-            "value" : 4
-          },
-          "value" : {
-            "type" : "variable"
-          },
-          "toolbarsGrp1" : {
-            "type" : "constant",
-            "value" : [
-              "h1",
-              "h2",
-              "h3",
-              "h4",
-              "h5",
-              "h6",
-              "p",
-              "ul",
-              "ol"
-            ]
-          },
-          "toolbarsGrp2" : {
-            "type" : "constant",
-            "value" : [
-              "bold",
-              "italics",
-              "underline",
-              "strikeThrough",
-              "pre",
-              "quote"
-            ]
-          },
-          "toolbarsGrp3" : {
-            "type" : "constant",
-            "value" : [
-              "justifyLeft",
-              "justifyCenter",
-              "justifyRight",
-              "indent",
-              "outdent"
-            ]
-          },
-          "toolbarsGrp4" : {
-            "type" : "constant",
-            "value" : [
-              "html",
-              "insertImage",
-              "insertLink",
-              "insertVideo",
-              "wordcount",
-              "charcount",
-              "undo",
-              "redo",
-              "clear"
-            ]
-          }
-        },
-        "reference" : "4353c2f9-c46b-4a57-af20-b220472eada3",
-        "hasValidationError" : false,
-        "id" : "pbRichTextarea"
-      }
-    ],
-    [
-      {
         "type" : "formContainer",
         "dimension" : {
           "xs" : 12
         },
-        "propertyValues" : {
-          "cssClasses" : {
-            "type" : "constant",
-            "value" : ""
-          },
-          "hidden" : {
-            "type" : "constant",
-            "value" : false
-          }
-        },
-        "reference" : "8fa9053a-1e5f-459c-8662-0116543ff468",
+        "propertyValues" : { },
+        "reference" : "a49af4ca-6a2f-4609-9986-eec583b219b7",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -347,10 +126,212 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "7be81af3-472d-4a56-a5a6-85ad7ccadaf2",
+          "reference" : "34afce56-895d-48d3-ba9d-27cb88bf6c19",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "level" : {
+                    "type" : "constant",
+                    "value" : "Level 4"
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "Thesis"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "left"
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "fee7a4a6-5abc-43b5-98ec-f67e17db1546",
+                "hasValidationError" : false,
+                "id" : "pbTitle",
+                "description" : ""
+              }
+            ],
+            [
+              {
+                "type" : "container",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "repeatedCollection" : {
+                    "type" : "variable"
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "a1d83dac-f224-42d6-b5ff-816dcaa61721",
+                "hasValidationError" : false,
+                "id" : "pbContainer",
+                "rows" : [
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Title"
+                        },
+                        "placeholder" : {
+                          "type" : "constant"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "text"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "thesis.title"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        }
+                      },
+                      "reference" : "f1b4496f-2dba-495a-a00a-6367b45404b9",
+                      "hasValidationError" : false,
+                      "id" : "pbInput",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Plan"
+                        },
+                        "placeholder" : {
+                          "type" : "constant"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "text"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "thesis.plan"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        }
+                      },
+                      "reference" : "858782a1-f6ab-4ab0-92a7-7ef6b7f8ca96",
+                      "hasValidationError" : false,
+                      "id" : "pbInput",
+                      "description" : ""
+                    }
+                  ]
+                ]
+              }
+            ],
             [
               {
                 "type" : "component",
@@ -426,7 +407,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "bb9ee066-9067-41c3-a13a-f7a5c6b97d84",
+                "reference" : "f9f6dd3c-9052-4eac-8660-dbc40271f93a",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -478,7 +459,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "5d53f835-610b-45ec-899c-c0e51fdc0b9e",
+                "reference" : "51fecb47-bc43-49e1-a6f6-6466ddcbc4d0",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -515,9 +496,22 @@
     "formOutput" : {
       "type" : "expression",
       "value" : [
-        "return {",
-        "",
+        "if( $data.thesis ){",
+        "\treturn {",
+        "\t\t//map thesis variable to expected task contract input",
+        "\t\tthesisInput: {",
+        "\t\t\ttitle: $data.thesis.title !== undefined ? $data.thesis.title : null,",
+        "\t\t\tplan: $data.thesis.plan !== undefined ? $data.thesis.plan : null",
+        "\t\t}",
+        "\t}",
         "}"
+      ],
+      "exposed" : false
+    },
+    "thesis" : {
+      "type" : "url",
+      "value" : [
+        "../{{context.thesis_ref.link}}"
       ],
       "exposed" : false
     },
@@ -538,16 +532,16 @@
   },
   "assets" : [
     {
-      "id" : "647a1b40-5754-4309-a7c3-9ad23892fdf4",
-      "name" : "localization.json",
-      "type" : "json",
+      "id" : "790aa48b-1451-4fc6-85ea-24d0f15d1d11",
+      "name" : "style.css",
+      "type" : "css",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "0539f3f3-1318-4535-90c6-d4e3b619fc91",
-      "name" : "style.css",
-      "type" : "css",
+      "id" : "c6051182-0087-4f09-97bc-3924ba2dc4c1",
+      "name" : "localization.json",
+      "type" : "json",
       "order" : 0,
       "external" : false
     }
