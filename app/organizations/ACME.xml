@@ -133,9 +133,12 @@
     </user>
   </users>
   <roles>
-    <role name="member">
-      <displayName>Member</displayName>
+    <role name="Supervisor">
+      <displayName>Supervisor</displayName>
       <description></description>
+    </role>
+    <role name="Student">
+      <displayName>Student</displayName>
     </role>
   </roles>
   <groups>
@@ -155,31 +158,31 @@
   <memberships>
     <membership>
       <userName>william.jobs</userName>
-      <roleName>member</roleName>
-      <groupName>supervisor</groupName>
+      <roleName>Student</roleName>
+      <groupName>student</groupName>
       <groupParentPath>/acme</groupParentPath>
     </membership>
     <membership>
       <userName>walter.bates</userName>
-      <roleName>member</roleName>
+      <roleName>Student</roleName>
       <groupName>student</groupName>
       <groupParentPath>/acme</groupParentPath>
     </membership>
     <membership>
       <userName>jan.fisher</userName>
-      <roleName>member</roleName>
+      <roleName>Supervisor</roleName>
       <groupName>supervisor</groupName>
       <groupParentPath>/acme</groupParentPath>
     </membership>
     <membership>
       <userName>isabel.bleasdale</userName>
-      <roleName>member</roleName>
+      <roleName>Student</roleName>
       <groupName>student</groupName>
       <groupParentPath>/acme</groupParentPath>
     </membership>
     <membership>
       <userName>favio.riviera</userName>
-      <roleName>member</roleName>
+      <roleName>Student</roleName>
       <groupName>student</groupName>
       <groupParentPath>/acme</groupParentPath>
     </membership>
