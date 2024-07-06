@@ -79,58 +79,6 @@
       <enabled>true</enabled>
       <password encrypted="false">bpm</password>
     </user>
-    <user userName="isabel.bleasdale">
-      <firstName>Isabel</firstName>
-      <lastName>Bleasdale</lastName>
-      <title>Mrs</title>
-      <jobTitle>Student</jobTitle>
-      <manager>favio.riviera</manager>
-      <personalData/>
-      <professionalData>
-        <email>isabel.bleasdale@acme.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
-    </user>
-    <user userName="favio.riviera">
-      <firstName>Favio</firstName>
-      <lastName>Riviera</lastName>
-      <title>Mr</title>
-      <jobTitle>Student</jobTitle>
-      <manager>william.jobs</manager>
-      <personalData/>
-      <professionalData>
-        <email>favio.riviera@acme.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
-    </user>
   </users>
   <roles>
     <role name="Supervisor">
@@ -172,18 +120,6 @@
       <userName>jan.fisher</userName>
       <roleName>Supervisor</roleName>
       <groupName>supervisor</groupName>
-      <groupParentPath>/acme</groupParentPath>
-    </membership>
-    <membership>
-      <userName>isabel.bleasdale</userName>
-      <roleName>Student</roleName>
-      <groupName>student</groupName>
-      <groupParentPath>/acme</groupParentPath>
-    </membership>
-    <membership>
-      <userName>favio.riviera</userName>
-      <roleName>Student</roleName>
-      <groupName>student</groupName>
       <groupParentPath>/acme</groupParentPath>
     </membership>
   </memberships>

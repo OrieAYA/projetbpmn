@@ -1,10 +1,10 @@
 {
-  "id" : "ReviewTitleAndPlan",
-  "name" : "ReviewTitleAndPlan",
+  "id" : "ReviewReport",
+  "name" : "ReviewReport",
   "type" : "form",
-  "uuid" : "107ae68e-71e1-4749-aa08-3d7268ea0527",
+  "uuid" : "13378463-9ba0-43f5-8ad6-5c97b5e646b1",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1720283698635,
+  "lastUpdate" : 1720283701789,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -14,7 +14,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "6d9b0588-caf9-48e7-ac71-06c5aef94b4b",
+        "reference" : "2c30fd04-eb39-4a54-ba98-e21ce6e34682",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -51,13 +51,9 @@
                 "dimension" : {
                   "type" : "constant",
                   "value" : 12
-                },
-                "allowHTML" : {
-                  "type" : "constant",
-                  "value" : false
                 }
               },
-              "reference" : "449014a3-e156-4b98-97da-64a25831421b",
+              "reference" : "5e5079c6-8140-4177-90a8-8865407f1c2d",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -105,7 +101,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "fb6cc790-b246-4ec4-b207-72f801751a77",
+              "reference" : "872d6cd3-bf31-4523-9ef6-8b1a3a67009e",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -116,64 +112,12 @@
     ],
     [
       {
-        "type" : "component",
-        "dimension" : {
-          "xs" : 12,
-          "sm" : 12,
-          "md" : 12,
-          "lg" : 12
-        },
-        "propertyValues" : {
-          "cssClasses" : {
-            "type" : "constant",
-            "value" : ""
-          },
-          "hidden" : {
-            "type" : "constant",
-            "value" : false
-          },
-          "allowHTML" : {
-            "type" : "constant",
-            "value" : false
-          },
-          "labelHidden" : {
-            "type" : "constant",
-            "value" : true
-          },
-          "label" : {
-            "type" : "interpolation",
-            "value" : "Default label"
-          },
-          "labelPosition" : {
-            "type" : "constant",
-            "value" : "top"
-          },
-          "labelWidth" : {
-            "type" : "constant",
-            "value" : 4
-          },
-          "text" : {
-            "type" : "interpolation",
-            "value" : "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,<br/>consectetur,<br/>adipisci velit..."
-          },
-          "alignment" : {
-            "type" : "constant",
-            "value" : "left"
-          }
-        },
-        "reference" : "ee9d9ec7-a791-4e1f-a246-db2bfd6c97c6",
-        "hasValidationError" : false,
-        "id" : "pbText"
-      }
-    ],
-    [
-      {
         "type" : "formContainer",
         "dimension" : {
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "afcde74d-a792-4271-a308-536eaf499480",
+        "reference" : "e5990ee0-393d-4ddd-86e4-de87bcf16560",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -182,7 +126,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "bd6603c1-b2f0-41bb-9307-e163d34de3fc",
+          "reference" : "fa1ee740-f955-45ff-a731-0c6fc4ad9581",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -265,7 +209,7 @@
                     "value" : 1
                   }
                 },
-                "reference" : "44eae2a3-daa1-48ee-8f9c-73f4decff2b7",
+                "reference" : "e48ca039-042c-43f6-ab2b-76ded9a421c8",
                 "hasValidationError" : false,
                 "id" : "pbInput"
               }
@@ -377,7 +321,7 @@
                     ]
                   }
                 },
-                "reference" : "ebc4fe91-371c-4090-83cb-8042e7afc5eb",
+                "reference" : "4b048098-411e-426c-987a-aece362f80fd",
                 "hasValidationError" : false,
                 "id" : "pbRichTextarea"
               }
@@ -410,7 +354,7 @@
                   },
                   "label" : {
                     "type" : "interpolation",
-                    "value" : "Add Commentary"
+                    "value" : "Add Comment"
                   },
                   "alignment" : {
                     "type" : "constant",
@@ -422,7 +366,7 @@
                   },
                   "action" : {
                     "type" : "constant",
-                    "value" : "PUT"
+                    "value" : "Submit task"
                   },
                   "assign" : {
                     "type" : "constant",
@@ -468,7 +412,7 @@
                     "type" : "variable"
                   }
                 },
-                "reference" : "4eb8d11f-6284-4d32-931e-9a0e0d7b6b06",
+                "reference" : "61b66adf-644f-4cfc-ae22-5d6d40fa4052",
                 "hasValidationError" : false,
                 "id" : "pbButton"
               }
@@ -509,7 +453,7 @@
                   },
                   "label" : {
                     "type" : "interpolation",
-                    "value" : "Validate Title and Plan"
+                    "value" : "Validate Report"
                   },
                   "labelPosition" : {
                     "type" : "constant",
@@ -540,7 +484,7 @@
                     "type" : "variable"
                   }
                 },
-                "reference" : "d6c97136-1bfb-4554-9c1c-cff58b955592",
+                "reference" : "93777bff-a10d-441a-a67d-77a6c340857a",
                 "hasValidationError" : false,
                 "id" : "pbRadioButtons"
               }
@@ -620,7 +564,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "c854dfd9-0071-467f-9854-fcd11810f5dd",
+                "reference" : "789bd57e-5fde-4cea-988a-07ba36d651e1",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -672,7 +616,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "eb0b5327-3994-40c1-bdd0-a927e8184ea0",
+                "reference" : "7284c532-f0b5-4e8f-ac3e-22c3930279a6",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -732,16 +676,16 @@
   },
   "assets" : [
     {
-      "id" : "397a1e68-dabd-43d8-a0c8-f3a423df0ff9",
-      "name" : "localization.json",
-      "type" : "json",
+      "id" : "782a2e2c-c222-4bb6-85ac-e0d817c60f68",
+      "name" : "style.css",
+      "type" : "css",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "cd96fdcf-fb71-42cc-b0a8-255f7679dfa0",
-      "name" : "style.css",
-      "type" : "css",
+      "id" : "4d471779-bc1b-4d29-8a65-73215329c2c6",
+      "name" : "localization.json",
+      "type" : "json",
       "order" : 0,
       "external" : false
     }
