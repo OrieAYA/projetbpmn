@@ -2,9 +2,9 @@
   "id" : "ReportUpdate",
   "name" : "ReportUpdate",
   "type" : "form",
-  "uuid" : "ed81ff1b-23de-49fb-bebd-300483daa759",
+  "uuid" : "93346dee-e67d-423f-9f07-e773499ad00a",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1720298116861,
+  "lastUpdate" : 1720369449325,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -14,7 +14,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "d302c4aa-b3da-45ff-a9ac-493fc979f3b9",
+        "reference" : "1da1e693-8e93-4352-9ec9-b8922bd67302",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -53,7 +53,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "5e13a5ca-9df6-4ded-9a66-b7ccf593af7d",
+              "reference" : "de686c49-1703-4b0b-a1c3-026f63a9534e",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -101,7 +101,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "17a3d790-5550-4133-a7ed-f3a04012e3c8",
+              "reference" : "5e7186dd-217b-40d2-8e47-74ac3eb66ec4",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -117,7 +117,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "c7d4a6b5-cf12-41bb-a58b-7ca14629f15e",
+        "reference" : "236afcca-266c-4c33-9800-01a7f912bb22",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -126,7 +126,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "ff6f7df4-35f6-45dd-8a17-c5475646f832",
+          "reference" : "31d18a37-f0cf-4612-8ad9-cf8cf56acebd",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -165,7 +165,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "51ae8b87-1d04-4f06-a8f5-87d85e8d5dc0",
+                "reference" : "2e77dc0d-076e-45b1-bdfd-564e77955e86",
                 "hasValidationError" : false,
                 "id" : "pbTitle",
                 "description" : ""
@@ -197,7 +197,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "78165c8e-db5d-4dec-9705-5ade137c0a74",
+                "reference" : "ce7dc200-e9da-4a42-a157-d41c64ba5053",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
@@ -242,21 +242,9 @@
                         "dimension" : {
                           "type" : "constant",
                           "value" : 12
-                        },
-                        "allowHTML" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 4
                         }
                       },
-                      "reference" : "ed7ea8d3-bd23-4947-b3c3-59255e059086",
+                      "reference" : "a3aba80d-4ed0-4ef6-adbb-f4b828d14be2",
                       "hasValidationError" : false,
                       "id" : "pbText",
                       "description" : ""
@@ -303,9 +291,21 @@
                         "dimension" : {
                           "type" : "constant",
                           "value" : 12
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
                         }
                       },
-                      "reference" : "8c50205e-0e02-4c82-ab0f-45aa2e05cd67",
+                      "reference" : "8660f8c4-e4e2-4508-b454-bbe3079719dd",
                       "hasValidationError" : false,
                       "id" : "pbText",
                       "description" : ""
@@ -367,114 +367,14 @@
                         "required" : {
                           "type" : "constant",
                           "value" : false
-                        },
-                        "allowHTML" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "minLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "maxLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "debounce" : {
-                          "type" : "constant",
-                          "value" : 0
-                        },
-                        "min" : {
-                          "type" : "constant"
-                        },
-                        "max" : {
-                          "type" : "constant"
-                        },
-                        "step" : {
-                          "type" : "constant",
-                          "value" : 1
                         }
                       },
-                      "reference" : "38fd0adc-1771-42ac-8496-45a0561249df",
+                      "reference" : "3f4234ac-ea9a-4e85-9fa9-442694a01794",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
                     }
-                  ]
-                ]
-              }
-            ],
-            [
-              {
-                "type" : "component",
-                "dimension" : {
-                  "md" : 12,
-                  "sm" : 12,
-                  "xs" : 12,
-                  "lg" : 12
-                },
-                "propertyValues" : {
-                  "hidden" : {
-                    "type" : "constant",
-                    "value" : false
-                  },
-                  "level" : {
-                    "type" : "constant",
-                    "value" : "Level 4"
-                  },
-                  "cssClasses" : {
-                    "type" : "constant",
-                    "value" : ""
-                  },
-                  "text" : {
-                    "type" : "interpolation",
-                    "value" : "Comments"
-                  },
-                  "alignment" : {
-                    "type" : "constant",
-                    "value" : "left"
-                  },
-                  "dimension" : {
-                    "type" : "constant",
-                    "value" : 12
-                  }
-                },
-                "reference" : "7037633d-d97e-41dc-8708-750306ee1ce6",
-                "hasValidationError" : false,
-                "id" : "pbTitle",
-                "description" : ""
-              }
-            ],
-            [
-              {
-                "type" : "container",
-                "dimension" : {
-                  "md" : 12,
-                  "sm" : 12,
-                  "xs" : 12,
-                  "lg" : 12
-                },
-                "propertyValues" : {
-                  "repeatedCollection" : {
-                    "type" : "variable"
-                  },
-                  "hidden" : {
-                    "type" : "constant",
-                    "value" : false
-                  },
-                  "cssClasses" : {
-                    "type" : "constant",
-                    "value" : ""
-                  },
-                  "dimension" : {
-                    "type" : "constant",
-                    "value" : 12
-                  }
-                },
-                "reference" : "443cf699-1fcc-43a0-a417-a403619f70c3",
-                "hasValidationError" : false,
-                "id" : "pbContainer",
-                "rows" : [
+                  ],
                   [
                     {
                       "type" : "component",
@@ -495,7 +395,7 @@
                         },
                         "hidden" : {
                           "type" : "expression",
-                          "value" : "!comments.comment"
+                          "value" : "!thesis.comment"
                         },
                         "cssClasses" : {
                           "type" : "constant",
@@ -507,7 +407,7 @@
                         },
                         "text" : {
                           "type" : "interpolation",
-                          "value" : "{{comments.comment}}"
+                          "value" : "{{thesis.comment}}"
                         },
                         "alignment" : {
                           "type" : "constant",
@@ -516,9 +416,21 @@
                         "dimension" : {
                           "type" : "constant",
                           "value" : 12
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
                         }
                       },
-                      "reference" : "b995145d-2e70-4d75-961d-37ea26541924",
+                      "reference" : "580eaad4-d059-4693-bc30-05c2bbb882fb",
                       "hasValidationError" : false,
                       "id" : "pbText",
                       "description" : ""
@@ -575,14 +487,14 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "comments.response"
+                          "value" : "thesis.response"
                         },
                         "required" : {
                           "type" : "constant",
                           "value" : false
                         }
                       },
-                      "reference" : "8dbb2b72-e494-4125-91e1-71a2e1eed835",
+                      "reference" : "6e22be45-431b-472d-b185-1ca9ec63e733",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -666,7 +578,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "9886e3d7-a2e5-4392-ba2a-3492cadafd44",
+                "reference" : "58ece29c-491d-4a65-9c4f-f367dda301b9",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -718,7 +630,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "4873dfc2-9584-4d31-b6d9-51c38dce648e",
+                "reference" : "9b8288df-c710-418c-b59a-25f428bab65d",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -734,13 +646,6 @@
       "type" : "url",
       "value" : [
         "../API/bpm/userTask/{{taskId}}"
-      ],
-      "exposed" : false
-    },
-    "comments" : {
-      "type" : "url",
-      "value" : [
-        "../{{context.comments_ref.link}}"
       ],
       "exposed" : false
     },
@@ -762,17 +667,12 @@
     "formOutput" : {
       "type" : "expression",
       "value" : [
-        "if( $data.thesis && $data.comments && $data.comments_thesisID ){",
-        "\t//attach lazy references variables to parent variables",
-        "\t$data.comments.thesisID = $data.comments_thesisID;",
+        "if( $data.thesis ){",
         "\treturn {",
         "\t\t//map thesis variable to expected task contract input",
         "\t\tthesisInput: {",
-        "\t\t\treport: $data.thesis.report !== undefined ? $data.thesis.report : null",
-        "\t\t},",
-        "\t\t//map comments variable to expected task contract input",
-        "\t\tcommentsInput: {",
-        "\t\t\tresponse: $data.comments.response !== undefined ? $data.comments.response : null",
+        "\t\t\treport: $data.thesis.report !== undefined ? $data.thesis.report : null,",
+        "\t\t\tresponse: $data.thesis.response !== undefined ? $data.thesis.response : null",
         "\t\t}",
         "\t}",
         "}"
@@ -783,13 +683,6 @@
       "type" : "url",
       "value" : [
         "../{{context.thesis_ref.link}}"
-      ],
-      "exposed" : false
-    },
-    "comments_thesisID" : {
-      "type" : "url",
-      "value" : [
-        "{{comments|lazyRef:'thesisID'}}"
       ],
       "exposed" : false
     },
@@ -810,14 +703,14 @@
   },
   "assets" : [
     {
-      "id" : "5ffe8ec1-ec4d-424b-9994-988b8f59576b",
+      "id" : "7b19ed21-3b85-470b-b151-0662f829edb4",
       "name" : "style.css",
       "type" : "css",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "397d739f-bd12-4f7d-b892-bd8aa5cd35e0",
+      "id" : "8246361e-c248-4c1f-8f09-d6b1f857ea1e",
       "name" : "localization.json",
       "type" : "json",
       "order" : 0,
